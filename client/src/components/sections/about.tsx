@@ -62,14 +62,14 @@ export default function About() {
             
             <motion.div variants={itemVariants}>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6" data-testid="text-about-title">
-                About Harsh
+                About Harsh Vora
               </h2>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p data-testid="text-about-description-1">
-                  I'm a passionate digital marketing and web development consultant with extensive experience helping businesses grow their online presence. Based in India, I provide comprehensive digital solutions to clients both locally and internationally.
+                  I'm Harsh Vora, a passionate digital marketing and web development consultant with extensive experience helping businesses grow their online presence. Based in India, I provide comprehensive digital solutions to clients both locally and internationally.
                 </p>
                 <p data-testid="text-about-description-2">
-                  With expertise in Meta Ads, SEO, performance marketing, and custom web development, I've helped numerous businesses achieve their growth objectives through strategic digital initiatives.
+                  With expertise in Meta Ads, Google Ads, SEO, performance marketing, and custom web development, I've helped numerous businesses achieve their growth objectives through strategic digital initiatives and data-driven approaches.
                 </p>
                 <p className="text-foreground font-semibold" data-testid="text-about-tagline">
                   Providing Digital Marketing & Web Development solutions for businesses in India and Internationally.

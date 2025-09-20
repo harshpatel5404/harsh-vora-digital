@@ -3,6 +3,14 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
+// Import stock images
+import ecommerceImg from "@assets/stock_images/business_success_ana_24ac892c.jpg";
+import metaAdsImg from "@assets/stock_images/meta_facebook_instag_5c9a423b.jpg";
+import seoImg from "@assets/stock_images/seo_search_engine_op_4e717c74.jpg";
+import socialMediaImg from "@assets/stock_images/social_media_marketi_d9957e7e.jpg";
+import leadGenImg from "@assets/stock_images/business_success_ana_710c069f.jpg";
+import revenueImg from "@assets/stock_images/revenue_growth_chart_3ee1e9f2.jpg";
+
 export default function Results() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -30,37 +38,37 @@ export default function Results() {
     {
       title: "E-commerce Growth",
       description: "300% increase in online orders through strategic optimization",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: ecommerceImg,
       alt: "E-commerce analytics dashboard showing order growth"
     },
     {
       title: "Meta Ads Performance", 
       description: "4.2x ROAS achieved through optimized campaign strategies",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: metaAdsImg,
       alt: "Meta ads performance dashboard showing campaign metrics"
     },
     {
       title: "SEO Success",
       description: "250% organic traffic increase within 6 months",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: seoImg,
       alt: "SEO analytics showing organic traffic growth curves"
     },
     {
       title: "Social Media Growth",
       description: "500% follower growth with 8x engagement rate increase",
-      image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: socialMediaImg,
       alt: "Social media analytics showing engagement metrics and growth"
     },
     {
       title: "Lead Generation",
       description: "180 qualified leads generated per month with 35% conversion rate",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: leadGenImg,
       alt: "Lead generation funnel showing conversion rates and pipeline metrics"
     },
     {
       title: "Revenue Growth",
       description: "400% revenue increase through integrated digital strategies",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: revenueImg,
       alt: "Revenue growth chart showing upward trending business metrics"
     }
   ];

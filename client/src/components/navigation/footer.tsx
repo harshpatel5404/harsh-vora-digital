@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Linkedin, Instagram, Facebook } from "lucide-react";
+import { Linkedin, Instagram, Facebook, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -37,6 +37,11 @@ export default function Footer() {
       icon: Facebook,
       href: "https://facebook.com/iamharshvora",
       label: "Facebook"
+    },
+    {
+      icon: MessageCircle,
+      href: "https://wa.me/917359525514",
+      label: "WhatsApp"
     }
   ];
 
@@ -54,7 +59,7 @@ export default function Footer() {
                 transition={{ duration: 0.6 }}
                 data-testid="text-footer-brand"
               >
-                Harsh Vora
+                GrowthX Media
               </motion.h3>
               <motion.p 
                 className="text-muted mb-6 leading-relaxed"
@@ -63,7 +68,7 @@ export default function Footer() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 data-testid="text-footer-description"
               >
-                Digital Marketing & Web Development consultant helping businesses grow in India and internationally.
+                Premier digital marketing agency specializing in growth-driven strategies, web development, and business transformation for clients worldwide.
               </motion.p>
               <motion.div 
                 className="flex space-x-4"
@@ -141,13 +146,13 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.5 }}
           >
             <p className="text-muted" data-testid="text-footer-copyright">
-              © {currentYear} Harsh Vora. All rights reserved. | 
+              © {currentYear} GrowthX Media. All rights reserved. | 
               <a 
-                href="mailto:harshvora9898@gmail.com" 
+                href="mailto:contact@growthxmedia.com" 
                 className="hover:text-background transition-colors ml-1"
                 data-testid="link-footer-email"
               >
-                harshvora9898@gmail.com
+                contact@growthxmedia.com
               </a> | 
               <a 
                 href="tel:+917359525514" 

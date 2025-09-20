@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import gxLogo from "@assets/generated_images/GX_transparent_background_logo_cc2342ea.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,11 +31,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled 
-          ? "navbar-blur border-b border-border shadow-lg" 
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm`}
     >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
@@ -42,9 +39,16 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             className="flex-shrink-0"
           >
-            <h2 className="text-xl font-bold text-primary" data-testid="logo">
-              Harsh Vora
-            </h2>
+            <div className="flex items-center space-x-3" data-testid="logo">
+              <img 
+                src={gxLogo} 
+                alt="GX Logo" 
+                className="h-10 w-10 object-contain"
+              />
+              <h2 className="text-xl font-bold text-primary">
+                GrowthX Media
+              </h2>
+            </div>
           </motion.div>
 
           {/* Desktop Navigation */}

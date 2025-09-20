@@ -36,7 +36,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="block">Harsh Vora</span>
+            <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent drop-shadow-lg">GrowthX Media</span>
             <motion.span 
               className="block text-3xl md:text-4xl font-normal mt-4 opacity-90"
               initial={{ opacity: 0 }}
