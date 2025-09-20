@@ -43,7 +43,7 @@ export default function Navbar() {
               <img 
                 src={gxLogo} 
                 alt="GX Logo" 
-                className="h-10 w-10 object-contain"
+                className="h-14 w-14 object-contain"
               />
               <h2 className="text-xl font-bold text-primary">
                 GrowthX Media
