@@ -1,0 +1,76 @@
+You are a professional web developer. Build a modern, one-page, responsive, animated agency-style website for a solo consultant.
+
+Business/Person:
+- Name: Harsh Vora
+- Image: [Use attached profile image]
+- Location: India (providing services in India + International)
+- LinkedIn: @iamharshvora
+- Instagram: instagram.com/iamharshvora
+- Facebook: @iamharshvora
+- Email: harshvora9898@gmail.com
+- Phone: +91 73595 25514
+
+Core Services Offered:
+1. Digital Marketing
+   - Meta Ads (Branding + Order Generation)
+   - Performance Marketing Campaigns
+   - SEO & Lead Generation
+   - Social Media Handling / Guidance (Instagram, Facebook, Pinterest)
+   - Business Growth Consulting
+
+2. Web Development
+   - E-commerce Websites (WordPress / WooCommerce / Shopify)
+   - Custom Website Development
+   - Website Optimization & Scaling
+
+Page Structure (Single Page):
+1. **Hero Section**
+   - Full-screen intro with Harsh Vora’s name, tagline: 
+     "Helping Businesses Grow with Digital Marketing + Web Development"
+   - Background animation (gradient + subtle moving shapes)
+   - CTA buttons: "Get Consultation" & "Contact Me"
+
+2. **About Section**
+   - Profile image + short bio about Harsh Vora
+   - Mention: "Providing Digital Marketing & Web Development solutions for businesses in India and Internationally."
+
+3. **Services Section** (animated cards with hover effects)
+   - Each card with icon + title + short description
+   - Categories: E-commerce Development, Meta Ads, SEO, Social Media Growth, Business Growth Guidance
+
+4. **Results / Proof Section** (instead of testimonials)
+   - Showcase dummy placeholders for:
+     - E-commerce order screenshots
+     - Meta Ads dashboard performance
+     - Growth analytics images
+   - Use animated image sliders / gallery for trust-building
+   - Headline: "Proven Results in India and International Campaigns"
+
+5. **Pricing / Consultation Section**
+   - Highlight consultancy fee: "Starting from ₹50,000/month"
+   - Animated pricing card with CTA button ("Book Now")
+
+6. **Contact Section**
+   - Contact form (Name, Email, Message)
+   - Click-to-call button with phone number
+   - Social media links (LinkedIn, Instagram, Facebook)
+
+7. **Footer**
+   - Quick links + Social media icons
+   - Copyright © 2025 Harsh Vora
+
+Design Guidelines:
+- Use React + TailwindCSS + Framer Motion
+- Smooth scroll navigation with sticky navbar
+- Animate on scroll (fade-in, slide-up, zoom effects)
+- Hero text & buttons with Framer Motion animation
+- Professional, modern color palette:
+  White background, dark gray text, accent color (blue/green/purple for CTAs)
+- Fully mobile-first responsive layout
+
+Features:
+- SEO optimized with meta tags & OpenGraph
+- Fast-loading, Lighthouse score 90+
+- Order/ads proof images in grid/slider format
+- Contact form functional (store submissions in free DB like Firebase or Formspree)
+- Deployment-ready on Vercel or Netlify
